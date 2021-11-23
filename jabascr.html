@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <input type="text" name="" id="firstvalue">
+    <input type="text" name="" id="secondvalue">
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="dev()">dev</button>
+    <br>
+    <span>answer = </span><span id="hamza"></span>
+    
+</body>
+<script>
+    function add() {
+      a=parseInt(document.getElementById("firstvalue").value)
+      b=parseInt(document.getElementById("secondvalue").value)  
+      document.getElementById("hamza").innerHTML=a+b;
+    }
+    function sub() {
+      a=parseInt(document.getElementById("firstvalue").value)
+      b=parseInt(document.getElementById("secondvalue").value)  
+      document.getElementById("hamza").innerHTML=a-b;
+    }
+    function mul() {
+      a=parseInt(document.getElementById("firstvalue").value)
+      b=parseInt(document.getElementById("secondvalue").value)  
+      document.getElementById("hamza").innerHTML=a*b;
+    }
+    function dev() {
+      a=parseInt(document.getElementById("firstvalue").value)
+      b=parseInt(document.getElementById("secondvalue").value)  
+      document.getElementById("hamza").innerHTML=a/b;
+    }
+   
+
+</script>
+</html>
