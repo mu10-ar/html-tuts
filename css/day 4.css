@@ -18,11 +18,11 @@
 
 
 
-/* absolulte
+/* absolulte */
    position: absolute;
-bottom: 10px;
-   right:20px ; */
-
+top: 10px;
+   left:20px ;
+z-index: -1;
 
     /* sticky
    position: sticky;
